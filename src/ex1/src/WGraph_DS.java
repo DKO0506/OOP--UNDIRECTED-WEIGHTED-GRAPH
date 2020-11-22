@@ -91,20 +91,6 @@ public class WGraph_DS implements weighted_graph, Serializable {
         return false;
     }
 
-//    public boolean equals(Object obj) {
-//        if (this == obj) return true;
-//        if (obj == null || getClass() != obj.getClass()) return false;
-//        ex1.src.WGraph_DS g = (ex1.src.WGraph_DS) obj;
-//        if (nodeSize() != g.nodeSize() || edgeSize() == g.edgeSize())
-//            return false;
-//
-//        for (Integer i : Vertices.keySet()) {
-//            if (!Edges.get(i).equals(g.Edges.get(i)))
-//                return false;
-//
-//        }
-//        return true;
-//    }
 
     /**
      * Given node1-node2 this method returns the weight of their edge.
