@@ -7,10 +7,10 @@
 ## Summary:
 -------
 The project focuses  on weighted undirected graph data structure and has two main Classes and two subclasses.
-1. ex1.src.node_info - an interface that represents a node in the graph implemented by NodeInfo subclass.
+1. node_info - an interface that represents a node in the graph implemented by NodeInfo subclass.
 2. Edges - class that represents the set of weighted edges of each node in the graph.
-3. ex1.src.weighted_graph - an interface that represents an undirected weighted graph data structure implemented by ex1.src.WGraph_DS.
-4. ex1.src.weighted_graph_algorithms - an interface that represents a set of algorithms to perform on a graph implemented by ex1.src.WGraph_Algo.
+3. weighted_graph - an interface that represents an undirected weighted graph data structure implemented by WGraph_DS.
+4. weighted_graph_algorithms - an interface that represents a set of algorithms to perform on a graph implemented by WGraph_Algo.
  
 ## Setup and data structure
 My implementation for the WGraph data structure is using Hashmap of vertices & edges.
@@ -33,7 +33,7 @@ all methods below are O(1).
 5. getNeighbors - return all the neighbor nodes of a given node
 6. remove - removes the weight of an edge from the map.
 
-## ex1.src.WGraph_DS class methods:
+## WGraph_DS class methods:
 -----
 1. getNode – returns a node the graph contains with a specific key. O(1)
 2. hasEdge – checks if there is  an edge between 2 nodes. O(1)
